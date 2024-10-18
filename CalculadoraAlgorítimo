@@ -1,0 +1,18 @@
+Função calculadora(numero1, numero2, operacao)
+    SE operacao = 1 ENTÃO
+        resultado = numero1 + numero2
+    SENÃO SE operacao = 2 ENTÃO
+        resultado = numero1 - numero2
+    SENÃO SE operacao = 3 ENTÃO
+        resultado = numero1 * numero2
+    SENÃO SE operacao = 4 ENTÃO
+        SE numero2 ≠ 0 ENTÃO
+            resultado = numero1 / numero2
+        SENÃO
+            resultado = "Erro: Divisão por zero"
+        FIM SE
+    SENÃO
+        resultado = 0
+    FIM SE
+    Retorna resultado
+FIM Função
