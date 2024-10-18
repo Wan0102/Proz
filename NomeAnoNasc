@@ -1,0 +1,24 @@
+Início
+
+    Mostrar mensagem "Digite seu nome completo:"
+    Receber o nome completo (nome)
+
+    Enquanto Verdadeiro (loop infinito)
+        Mostrar mensagem "Digite seu ano de nascimento (entre 1922 e 2021):"
+        Receber o ano de nascimento (ano_nascimento)
+        
+        Tentar converter o valor recebido para um número inteiro (tentativa de conversão)
+        
+        Se a conversão falhar (não for um número)
+            Mostrar mensagem "Erro: Por favor, digite um número válido para o ano de nascimento."
+
+        Senão
+            Se ano_nascimento for maior que 2021 ou menor que 1922
+                Mostrar mensagem "Erro: O ano de nascimento deve estar entre 1922 e 2021."
+            Senão
+                Calcular a idade: idade = 2022 - ano_nascimento
+                Mostrar "Nome: " + nome
+                Mostrar "Idade em 2022: " + idade
+                Parar o loop (sair do programa)
+
+Fim
