@@ -1,0 +1,11 @@
+public class HotelAndares {
+    public static void main(String[] args) {
+        // Laço for para imprimir os andares em ordem decrescente, exceto o 13
+        for (int i = 20; i >= 1; i--) {
+            if (i == 13) {
+                continue; // Pula o andar 13
+            }
+            System.out.println("Andar: " + i);
+        }
+    }
+}
