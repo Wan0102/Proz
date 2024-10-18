@@ -1,0 +1,48 @@
+Função calculadora()
+
+    Enquanto Verdadeiro (loop infinito)
+        Mostrar menu de operações:
+            1: Soma
+            2: Subtração
+            3: Multiplicação
+            4: Divisão
+            0: Sair
+        
+        Solicitar ao usuário para escolher uma operação (opcao)
+        
+        SE opcao = 0 ENTÃO
+            Mostrar "Saindo do programa..."
+            Parar o loop (sair da função)
+        
+        SENÃO SE opcao = 1 ENTÃO
+            Solicitar ao usuário para digitar o primeiro número (numero1)
+            Solicitar ao usuário para digitar o segundo número (numero2)
+            Calcular o resultado: numero1 + numero2
+            Mostrar o resultado
+        
+        SENÃO SE opcao = 2 ENTÃO
+            Solicitar ao usuário para digitar o primeiro número (numero1)
+            Solicitar ao usuário para digitar o segundo número (numero2)
+            Calcular o resultado: numero1 - numero2
+            Mostrar o resultado
+        
+        SENÃO SE opcao = 3 ENTÃO
+            Solicitar ao usuário para digitar o primeiro número (numero1)
+            Solicitar ao usuário para digitar o segundo número (numero2)
+            Calcular o resultado: numero1 * numero2
+            Mostrar o resultado
+        
+        SENÃO SE opcao = 4 ENTÃO
+            Solicitar ao usuário para digitar o primeiro número (numero1)
+            Solicitar ao usuário para digitar o segundo número (numero2)
+            
+            SE numero2 = 0 ENTÃO
+                Mostrar "Erro: Divisão por zero"
+            SENÃO
+                Calcular o resultado: numero1 / numero2
+                Mostrar o resultado
+        
+        SENÃO
+            Mostrar "Essa opção não existe"
+    
+Fim da função
